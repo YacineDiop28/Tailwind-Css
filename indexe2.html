@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portefeuille Personnel</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfc309c530.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-400 text-gray-900">
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gray-800">Mon Portefeuille</div>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="#about" class="text-gray-600 hover:text-gray-800">À propos</a></li>
+                        <li><a href="#projects" class="text-gray-600 hover:text-gray-800">Projets</a></li>
+                        <li><a href="#contact" class="text-gray-600 hover:text-gray-800">Contact</a></li>
+                        <li><a href="#logo" class="text-gray-600 hover:text-gray-800" ></a><div class="flex flex-shrink-0 items-center">
+                            <img class="h-8 w-auto" src="/image/Mon logo - Copie.png" alt="Your Company">
+                          </div></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('/image/I1.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto px-6 py-20 flex flex-col items-center justify-center h-full relative z-10">
+            <h1 class="text-4xl md:text-6xl font-bold text-white text-center leading-tight">
+                Bonjour, je suis <span class="text-blue-400">Yacine Diop</span>
+            </h1>
+            <p class="mt-4 text-lg md:text-2xl text-white text-center max-w-lg">
+                Développeuse web passionnée par la création de sites modernes et réactifs.
+            </p>
+        </div>
+    </section>
+    <!-- Section Description -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-5xl font-bold text-center">À propos de moi</h2>
+            <div class="mt-2 flex flex-col md:flex-row items-center">
+                <div class="md:w-1/3">
+                    <img src="/image/logo2.png" alt="Votre Photo" class="rounded-full shadow-md">
+                </div>
+                <div class="md:w-2/3 md:ml-10 mt-6 md:mt-0 text-center md:text-left">
+                    <p class="text-lg">Je suis une développeuse web passionnée avec une expérience en création de sites web modernes et réactifs. J'aime coder et apprendre de nouvelles technologies pour améliorer mes compétences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Compétences -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-10 decoration-solid">Mes Compétences</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Compétence 1 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-2">HTML & CSS</h3>
+                    <p class="text-gray-600">Création de sites web structurés et stylés avec HTML5 et CSS3.</p>
+                </div>
+                <!-- Compétence 2-->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-2">JavaScript</h3>
+                    <p class="text-gray-600">Développement de fonctionnalités interactives avec JavaScript.</p>
+                </div>
+                <!-- Compétence 3-->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-2">Tailwind CSS</h3>
+                    <p class="text-gray-600">Utilisation de Tailwind CSS pour des conceptions modernes et réactives.</p>
+                </div>
+                <!-- Compétence 4 -->
+                <div class="bg-white shadow-md rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-2">Git & GitHub</h3>
+                    <p class="text-gray-600">Gestion du code source et collaboration avec Git et GitHub.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Section Projets -->
+ <section id="projects" class="py-20 bg-gray-200">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-10 decoration-solid">Mes Projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Projet 1 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/image/restaur.png" alt="Projet 1" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Restaurant Fictifs</h3>
+                    <p class="text-gray-600">Description du projet 1.</p>
+                </div>
+            </div>
+            <!-- Projet 2 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/image/projet montres.png" alt="Projet 2" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Boutique en ligne</h3>
+                    <p class="text-gray-600">Ventes des montres.</p>
+                </div>
+            </div>
+            <!-- Projet 3 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/image/projet css.png" alt="Projet 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Css</h3>
+                    <p class="text-gray-600"> Stylée la page avec CSS</p>
+                </div>
+            </div>
+            <!-- Projet 4 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/image/capture1.png" alt="Projet 3" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Git & GitHub</h3>
+                    <p class="text-gray-600">les commandes de bases</p>
+                </div>
+            </div>
+    </div>
+</section>
+    <!--  Section Contact-->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center">Contactez-moi</h2>
+            <div class="mt-6 flex justify-center">
+                <form class="w-full max-w-lg bg-white shadow-md rounded-lg p-6">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Nom</label>
+                        <input class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none" id="name" type="text" placeholder="Votre nom">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="email">Email</label>
+                        <input class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none" id="email" type="email" placeholder="Votre email">
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="message">Message</label>
+                        <textarea class="w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none" id="message" rows="4" placeholder="Votre message"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700" type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+              <!-- ICONES-->
+              <div class="icones">
+                    <a href="instagram.com" target="_blank" rel="noopener noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a> 
+                    <a href=""><i class="fa-regular fa-heart"></i></a><br>
+                </div>
+            <p class="text-sm">&copy; 2024 . Tous droits réservés.</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
